@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="bcrypt">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/Django/bcrypt" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Desktop/Django/bcrypt" recursive="false" />
+  </library>
+</component>

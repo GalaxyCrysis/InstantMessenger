@@ -1,0 +1,65 @@
+.root{
+    -fx-background-color: black;
+    -fx-border-color: grey;
+
+}
+.label{
+    -fx-text-fill: grey;
+    -fx-font-size: 12;
+}
+.button{
+
+    -fx-text-fill: white;
+    -fx-background-radius: 4;
+    -fx-background-color: indianred;
+}
+.text-field{
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-border-insets: 4;
+    -fx-background-color: indianred;
+    -fx-border-radius: 4;
+    -fx-background-insets: 3;
+
+}
+
+.list-view .list-cell:even{
+    -fx-background-color: indianred;
+    -fx-text-fill: white;
+}
+.list-view .list-cell:odd{
+    -fx-background-color: indianred;
+    -fx-text-fill: white;
+}
+.list-view{
+    -fx-border-color: red;
+    -fx-border-insets: 2;
+}
+#bold-label{
+    -fx-font-weight: bold;
+    -fx-font-size: 16;
+    -fx-text-fill: indianred;
+    -fx-font-style: italic;
+}
+#fail-label{
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-font-family: sans-serif;
+}
+#messenger-label{
+    -fx-text-fill: indianred;
+    -fx-font-size: 14;
+    -fx-font-style: italic;
+
+}
+.text-area{
+    text-area-background: firebrick;
+    -fx-text-fill: white;
+
+}
+.text-area .content{
+    -fx-background-color: text-area-background;
+    -fx-border-color: red;
+    -fx-border-insets: 3;
+    -fx-background-radius: 2deg;
+}
